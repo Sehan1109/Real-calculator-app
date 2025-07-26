@@ -1,30 +1,67 @@
-🔧 Step 1: Fork & Clone
-Go to: https://github.com/Sehan1109/Real-calculator-app
-Click Fork to create your copy
-Clone it using GitHub Desktop or terminal
-Open the project in your IDE (e.g., VS Code)
+# 🔢 React Calculator – GitHub Workshop Instructions
+
+Welcome! In this workshop, you'll build a **React Calculator** using **Vite**, customize it, and push it to your own GitHub repository.
+
+---
+
+## 🔧 Step 1: Fork & Clone
+
+1. Go to: [https://github.com/Sehan1109/Real-calculator-app](https://github.com/Sehan1109/Real-calculator-app)
+2. Click **Fork** to create your copy of the repository.
+3. Clone it using GitHub Desktop _or_ terminal:
+   ```bash
+   git clone https://github.com/YOUR-USERNAME/Real-calculator-app.git
+Open the project in your IDE (e.g., VS Code).
 
 ⚙️ Step 2: Create a React App Using Vite
 In your terminal, run the following command:
 
+bash
+Copy
+Edit
 npm create vite@latest my-calculator -- --template react
-You can use whatever name for the app you like (e.g., my-calculator, calculator, etc.)
+💡 You can name your app anything you like: my-calculator, calculator, etc.
 
-Then install dependencies:
+Then, install the dependencies:
 
+bash
+Copy
+Edit
 cd my-calculator
 npm install
-
 🧩 Step 3: Replace Code Files
-From the forked repo, copy App.jsx and App.css
-Replace the corresponding files in your Vite app under src/
-You can customise
+From the forked repo, copy these files:
+
+App.jsx
+
+App.css
+
+Replace the corresponding files in your Vite app (inside the src/ folder).
+
+🎨 Feel free to customize the styles or add new features!
 
 🧪 Step 4: Run & Test the App
 Start the development server:
 
+bash
+Copy
+Edit
 npm run dev
-Test all buttons
-Check design accuracy
+✅ Now test:
+
+All calculator buttons
+
+Functional correctness
+
+Design accuracy
+
 🚀 Step 5: Push Your Code to GitHub
-Commit and push your chang
+Add, commit, and push your code:
+
+bash
+Copy
+Edit
+git add .
+git commit -m "Completed calculator app"
+git push
+Your app is now live in your GitHub repo! 🎉
